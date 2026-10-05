@@ -1,0 +1,32 @@
+{
+  "cases": 216,
+  "plant": "assumed first order closed analog loop; not measured SC8701 model",
+  "time_constants_ms": [
+    5,
+    20,
+    80,
+    200
+  ],
+  "delays_ms": [
+    0,
+    10,
+    20
+  ],
+  "gain_multipliers": [
+    0.5,
+    1,
+    1.5
+  ],
+  "load_disturbance_mv": [
+    -80,
+    80
+  ],
+  "measurement_noise_mv": [
+    -2,
+    0,
+    2
+  ],
+  "max_final_absolute_error_mv": 7.17,
+  "max_reverse_overshoot_mv": 0.72,
+  "hardware_validated": false
+}

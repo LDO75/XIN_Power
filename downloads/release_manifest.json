@@ -1,0 +1,27 @@
+{
+  "publication": "6.2.3-open.1",
+  "firmware": "6.2.3",
+  "protocol": 5,
+  "source_files": 494,
+  "image_bytes": 126992,
+  "image_sha256": "5a403d5a24ecfcac26b74bdd554b5de0ee46a06ca9b34f3953439dbce5b1ba1c",
+  "font": "XIN UI Heiti derived from Source Han Sans CN under OFL-1.1",
+  "hardware_tested_this_publication": false,
+  "Keil_APP": "0 errors / 0 warnings",
+  "Keil_BL": "0 errors / 0 warnings",
+  "PC_current_tests": 19,
+  "assumed_plant_models": 216,
+  "files": {
+    "merge_pc_tool.cmd": "09e0a175b49682d76fcc04fa7439d3a016340ed6c27386436467cb0fec6cbfa4",
+    "merge_pc_tool.ps1": "df5ec60ae302e47087c915bc8083fe1a56e42529adcd3a05f5764c01a3324032",
+    "README.md": "400ad3d06e4d31edafdf6d4fa41f1eb3b3b648c969244803c96818de3e3ee614",
+    "XIN_Power_BL_BASE_5.9.3.hex": "fc0729cb165ebd5235bc9b4306ef5331579af2bae216b5245e69f8da43ac712c",
+    "XIN_Power_Studio_V6.2.3.exe": "26b0bc8aff796a220c3d64fe7aa41e574d7a40b57a84bfd3dafa50d0bbba67cf",
+    "XIN_Power_Studio_V6.2.3.part1": "415b139a5940f550d0dd0da09d07b4d0a8230722d1cf375cd4efa175fdb55ae6",
+    "XIN_Power_Studio_V6.2.3.part2": "44aa063b32fc6bbff1661f769a53f5b5152f0a00823393d1de73d5ab087d3a8a",
+    "XIN_Power_V6.2.3_OPEN1_APP_USB_BT.bin": "5a403d5a24ecfcac26b74bdd554b5de0ee46a06ca9b34f3953439dbce5b1ba1c",
+    "XIN_Power_V6.2.3_OPEN1_APP_USB_BT.hex": "e2f9b2340fad4929faa00dd86bc26a33ed794ae0bd3ac9c795ac4832d48d0753",
+    "XIN_Power_V6.2.3_OPEN1_FACTORY_SWD.hex": "9f4d3576faf492c616b67374bda10c6ba452904bd7640391b722fe281572320d",
+    "XIN_Power_V6.2.3_OPEN1_FullSource.zip": "4389ccf8ce4a9bbbc95c4db998335067ce75287517c31ab534c8d8cd57812842"
+  }
+}

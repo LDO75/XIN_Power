@@ -1,0 +1,39 @@
+// File: PY32F403xx.dbgconf
+// Version: 1.0.0
+
+// <<< Use Configuration Wizard in Context Menu >>>
+
+// <h> Debug MCU configuration register (DBGMCU_CR)
+//   <o.30>  DBG_TIM11_STOP           <i> Debug TIM11 Stop Mode
+//   <o.29>  DBG_TIM10_STOP           <i> Debug TIM10 Stop Mode
+//   <o.28>  DBG_TIM9_STOP            <i> Debug TIM9 Stop Mode
+//   <o.27>  DBG_TIM14_STOP           <i> Debug TIM14 Stop Mode
+//   <o.26>  DBG_TIM13_STOP           <i> Debug TIM13 Stop Mode
+//   <o.25>  DBG_TIM12_STOP           <i> Debug TIM12 Stop Mode
+//   <o.20>  DBG_TIM7_STOP            <i> Debug TIM7 Stop Mode
+//   <o.19>  DBG_TIM6_STOP            <i> Debug TIM6 Stop Mode
+//   <o.18>  DBG_TIM5_STOP            <i> Debug TIM5 Stop Mode
+//   <o.17>  DBG_TIM8_STOP            <i> Debug TIM8 Stop Mode
+//   <o.16>  DBG_I2C2_SMBUS_TIMEOUT   <i> Debug I2C2_SMBUS_TIMEOUT
+//   <o.15>  DBG_I2C1_SMBUS_TIMEOUT   <i> Debug I2C1_SMBUS_TIMEOUT
+//   <o.14>  DBG_CAN_STOP             <i> Debug CAN Stop Mode
+//   <o.13>  DBG_TIM4_STOP            <i> Debug TIM3 Stop Mode
+//   <o.12>  DBG_TIM3_STOP            <i> Debug TIM3 Stop Mode
+//   <o.11>  DBG_TIM2_STOP            <i> Debug TIM2 Stop Mode
+//   <o.10>  DBG_TIM1_STOP            <i> Debug TIM1 Stop Mode
+//   <o.9>  DBG_WWDG_STOP            <i> Debug WWDG Stop Mode
+//   <o.8>  DBG_IWDG_STOP            <i> Debug IWDG Stop Mode
+//                                   <i> Reserved bits must be kept at reset value
+//   <o.6..7> TRACE_MODE             <i> Trace Mode
+//      <0=> Asynchronous
+//      <1=> Synchronous: TRACEDATA Size 1
+//      <2=> Synchronous: TRACEDATA Size 2
+//      <3=> Synchronous: TRACEDATA Size 4
+//   <o.5>  TRACE_IOEN               <i> Trace I/O Enable
+//   <o.2>  DBG_STANDBY              <i> Debug Standby Mode
+//   <o.1>  DBG_STOP                 <i> Debug Stop Mode
+//   <o.0>  DBG_SLEEP                <i> Debug Sleep Mode
+// </h>
+DbgMCU_CR = 0x00000007;
+
+// <<< end of configuration section >>>

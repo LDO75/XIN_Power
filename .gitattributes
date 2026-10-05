@@ -1,0 +1,13 @@
+*.md text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.zip binary
+*.pdf binary
+*.step binary
+*.3mf binary
+*.ttf binary
+*.otf binary
+*.png binary

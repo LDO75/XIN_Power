@@ -1,0 +1,12 @@
+; Fixed BL flash map. Never place a BL section into the application area.
+LR_IROM1 0x08000000 0x00008000 {
+  ER_IROM1 0x08000000 0x00008000 {
+    *.o (RESET, +First)
+    *(InRoot$$Sections)
+    .ANY (+RO)
+    .ANY (+XO)
+  }
+  RW_IRAM1 0x20000000 0x00010000 {
+    .ANY (+RW +ZI)
+  }
+}

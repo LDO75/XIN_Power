@@ -1,0 +1,17 @@
+**/Objects/
+**/Listings/
+**/build/
+**/dist/
+**/__pycache__/
+**/.venv/
+*.pyc
+*.uvguix
+*.uvoptx
+*.log
+*.jsonl
+**/live_api.json
+**/live_session_gui.jsonl
+firmware/current/tests/*.exe
+firmware/current/tests/*.ppm
+firmware/current/03_Factory/*.hex
+downloads/XIN_Power_Studio_V6.2.3.exe

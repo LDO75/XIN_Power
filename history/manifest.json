@@ -1,0 +1,52 @@
+[
+  {
+    "version": "5.9.3",
+    "hardware": "原控制硬件",
+    "description": "完整BL/APP/Factory/Recovery/PC；风扇与通信节点",
+    "file": "XIN_Power_V5.9.3_PublicSource.zip",
+    "source_files": 458,
+    "sha256": "1538d1e46c37b86c1b45419ee5bd9871c4ed5f8bae4e724cfd7c57f678a3273d",
+    "original_source_sha256": "7fc5a5dbf042825be6331df7497954ad59e0586bdada4b97ebb74178dd6be87f",
+    "public_font_rebuild": false
+  },
+  {
+    "version": "6.0.4",
+    "hardware": "当时原阻值/输出级",
+    "description": "直接DAC校准及3.6V保存修复",
+    "file": "XIN_Power_V6.0.4_PublicSource.zip",
+    "source_files": 261,
+    "sha256": "95779dde636e6b5a9fbebbce96a3e5e20fd1ae8373ef636d8b1547ff8bf7b296",
+    "original_source_sha256": "e1c587823844087d094f21a95c600f64e1ecf76828aca23097a0654e41d08f0b",
+    "public_font_rebuild": false
+  },
+  {
+    "version": "6.0.8",
+    "hardware": "R316=4.99kΩ；当时输出级",
+    "description": "SaveFix1_UIFix，直接DAC、Flash保存及回读修复",
+    "file": "XIN_Power_V6.0.8_PublicSource.zip",
+    "source_files": 279,
+    "sha256": "f695ea66b4222e90b35ec0c147acf1cd7206db2d1e60f92ccb48bc023a8b9866",
+    "original_source_sha256": "6859ccb5d78661ffe9e2ad8a52979a4812ddfc2cde6ec9db51d310aa52698b33",
+    "public_font_rebuild": false
+  },
+  {
+    "version": "6.1.5",
+    "hardware": "R316=4.99kΩ；当时SRC补丁",
+    "description": "匹配DAC参数，仍为2–32V/17点试验",
+    "file": "XIN_Power_V6.1.5_PublicSource.zip",
+    "source_files": 272,
+    "sha256": "c2bb718b1cb1a034f10a00ece7a9ca102b14087d55c0deeaf60965e534b8c69d",
+    "original_source_sha256": "b59144f67afa8edce63ba796dea26bd754cb53799f3907698cfeaca8a0f24834",
+    "public_font_rebuild": false
+  },
+  {
+    "version": "6.2.2",
+    "hardware": "当前V2旁路硬件",
+    "description": "3.2–32V；纯DAC、休眠、25Hz、有线恢复",
+    "file": "XIN_Power_V6.2.2_PublicSource.zip",
+    "source_files": 287,
+    "sha256": "2ab673ff3b7964ac514f485268f0613a6f8d10e28f3f713c8fcbbfda5c9ba7ce",
+    "original_source_sha256": "20a431205a6b8c8521b1e5891d133a8ad4188119e140b0e7ba739cdfc593c57f",
+    "public_font_rebuild": true
+  }
+]

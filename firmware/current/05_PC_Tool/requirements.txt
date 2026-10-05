@@ -1,0 +1,2 @@
+pyserial==3.5
+PySide6_Essentials>=6.8,<7

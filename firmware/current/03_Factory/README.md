@@ -1,0 +1,7 @@
+# 首次安装合并HEX
+
+先编译01_Bootloader和02_Application，再运行make_factory_hex.py。地址、校验和、向量表和重叠检查通过后才会生成Factory镜像。
+
+已有Bootloader只更新APP；Factory用于空片首次SWD安装或明确需要重装的情况。不要为了普通升级清空W25Q256或已有校准。
+
+公开包downloads中的Factory来自本次重建BL及思源字库APP合并。文件检查通过不等于实机首次安装/掉电恢复已验收，详见docs/发布验证.md。
