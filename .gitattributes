@@ -11,3 +11,9 @@
 *.ttf binary
 *.otf binary
 *.png binary
+*.hex binary
+*.bin binary
+*.exe binary
+*.part1 binary
+*.part2 binary
+downloads/** -text
