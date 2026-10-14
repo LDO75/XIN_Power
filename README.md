@@ -1,6 +1,6 @@
 # XIN Power
 
-基于 **PY32F403 + SC8701** 的数控可调电源，面向当前 **V2补丁硬件**。
+我是LDO75，XIN Power是我基于原开源方案继续开发的数控可调电源，采用 **PY32F403 + SC8701**，当前工程对应 **V2补丁硬件**。
 
 **3.2～32V · 0.1～8A过流设定 · 16点DAC校准 · 触摸屏 · 有线/蓝牙上位机**
 
@@ -39,7 +39,7 @@ history/            按版本排序的关键源码快照及校验信息
 docs/               最新复刻说明、构建说明、负载测试与待补资料
 ```
 
-历史快照是本次整理后形成的归档，没有伪造原开发日期或把试验版统一称为实测稳定版。
+我按版本归档了关键历史工程，各快照保留对应的硬件和软件前提，便于比较与学习。
 
 ## 硬件与功能边界
 
@@ -54,7 +54,7 @@ docs/               最新复刻说明、构建说明、负载测试与待补资
 
 ## 来源与许可
 
-原电源方案参考立创开源作者 **cyxsnbb666** 的[Type-C可调电源项目](https://oshwhub.com/cyxsnbb666/typec-adjustable-power-supply-wi)。XIN Power由 **LDO75** 维护。
+原电源方案参考立创开源作者 **cyxsnbb666** 的[Type-C可调电源项目](https://oshwhub.com/cyxsnbb666/typec-adjustable-power-supply-wi)。我以 **LDO75** 维护XIN Power。
 
 沿用本仓库现有 [GPLv3许可证](LICENSE)。第三方器件库及字体保留独立许可，详见 [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md)。
 
